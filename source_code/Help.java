@@ -83,5 +83,6 @@ public class Help extends Frame {
 		fHelp.add(scrPane);
 		fHelp.setSize(400, 500);
 		fHelp.setVisible(true);
+		fHelp.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 }

@@ -111,8 +111,8 @@ public class LoginValidation extends Frame implements ActionListener {
 		f.add(panelMsg);
 		f.setLayout(new GridLayout(7, 1));
 		f.setSize(430, 400);
-		f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		f.setVisible(true);
+		f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 	
 	public String getPassword(FileReader fr) {

@@ -64,6 +64,7 @@ public class MainProgram extends LoginValidation implements MouseListener {
 		fMain.add(panelStart);
 		fMain.setSize(1200, 200);
 		fMain.setVisible(true);
+		fMain.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 	
 	public void mouseClicked(MouseEvent e) {}

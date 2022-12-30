@@ -62,5 +62,6 @@ public class HelpRecords extends Frame {
 		fHelp.add(scrPane);
 		fHelp.setSize(400, 320);
 		fHelp.setVisible(true);
+		fHelp.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 }

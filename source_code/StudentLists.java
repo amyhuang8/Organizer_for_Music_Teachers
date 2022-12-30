@@ -141,6 +141,7 @@ public class StudentLists extends MainProgram {
 		fMain.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		fMain.setVisible(true);
 		fMain.remove(panelStart);
+		fMain.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 	
 	public void studentListsUpdated() {

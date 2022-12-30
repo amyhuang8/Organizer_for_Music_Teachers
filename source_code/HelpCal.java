@@ -58,5 +58,6 @@ public class HelpCal extends Frame {
 		fHelp.add(scrPane);
 		fHelp.setSize(400, 230);
 		fHelp.setVisible(true);
+		fHelp.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 }

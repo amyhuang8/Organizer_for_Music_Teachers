@@ -56,5 +56,6 @@ public class HelpNotes extends Frame {
 		fHelp.add(scrPane);
 		fHelp.setSize(400, 170);
 		fHelp.setVisible(true);
+		fHelp.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 }

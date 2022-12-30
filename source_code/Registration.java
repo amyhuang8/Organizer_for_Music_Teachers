@@ -101,8 +101,8 @@ public class Registration extends Frame implements ActionListener {
 		f.add(panelMsg);
 		f.setLayout(new GridLayout(7, 1));
 		f.setSize(400, 400);
-		f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		f.setVisible(true);
+		f.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 	}
 	
 	public void savingInfo(String u, String p) throws IOException {
